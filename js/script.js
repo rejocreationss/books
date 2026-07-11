@@ -7,10 +7,7 @@ image:"images/books/Ruby.jpg",
 link:"https://rejocreationss.gumroad.com/l/RubysFracturedLoveStory",
 badge:"🔥 BEST SELLER",
 rating:"★★★★★",
-reviews:"245",
-type:"Romance Novel",
-format:"Printable PDF",
-download:"Instant Download"
+reviews:"245"
 },
 
 {
@@ -70,6 +67,19 @@ format:"Printable PDF",
 download:"Instant Download"
 },
 
+{
+title:"Alphabet Tracing Book",
+
+price:"₹149",
+
+image:"images/books/alphabet.jpg",
+
+link:"https://rejocreationsss.gumroad.com/l/alphabet",
+
+badge:"⭐ NEW"
+
+}
+
 ];
 
 const container=document.querySelector(".books-grid");
@@ -84,42 +94,27 @@ container.innerHTML += `
 ${product.badge}
 </div>
 
-<img src="${product.image}" alt="${product.title}">
+<a href="${product.link}" target="_blank">
+    <img src="${product.image}" alt="${product.title}">
+</a>
 
 <div class="book-content">
 
-<h3>${product.title}</h3>
+<h3>
+    <a href="${product.link}" target="_blank" class="book-title">
+        ${product.title}
+    </a>
+</h3>
 
 <div class="rating">
 ${product.rating}
 <span>(${product.reviews})</span>
 </div>
 
-<p class="type">
-📚 ${product.type}
-</p>
-
-<p class="format">
-📄 ${product.format}
-</p>
-
-<p class="download">
-⚡ ${product.download}
-</p>
-
 <div class="price">
 ${product.price}
 </div>
 
-<a href="${product.link}" target="_blank">
-
-<button>🛒 Buy Now</button>
-
-</a>
-
-</div>
-
-</div>
 
 `;
 
