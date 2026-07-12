@@ -46,7 +46,7 @@ ul{
 
     width:100%;
 
-    max-width: 1700px;
+    max-width:1550px;
 
     margin:auto;
 
@@ -375,6 +375,12 @@ nav a:hover{
 
 }
 
+.book-content{
+
+padding:20px;
+
+}
+
 .section-title{
 
     text-align:center;
@@ -404,7 +410,7 @@ nav a:hover{
 
     width:100%;
 
-    max-width: 1700px;
+    max-width:1450px;
 
     margin:auto;
 
@@ -412,25 +418,34 @@ nav a:hover{
 
 }
 .books-grid{
+
     display:grid;
-    grid-template-columns:repeat(5, 1fr);
-    gap:20px;
-    width:100%;
-    max-width:1700px;
-    margin:50px auto 0;
-    padding:0;
-    align-items:start;
+
+    display:grid;
+
+    grid-template-columns:repeat(5,1fr);
+
+    column-gap:115px;
+row-gap:35px;
+
+    justify-items:center;
+
+    max-width:5900px;
+
+    margin:0 auto;
+
 }
 
 .book-card{
-    width:100%;
+  
+    width:150%;
+    max-width:900px;
+    height:450px;
     background:#fff;
     border-radius:20px;
     overflow:hidden;
     box-shadow:0 10px 25px rgba(0,0,0,.08);
-    transition:.35s ease;
-    display:flex;
-    flex-direction:column;
+
 }
 
 .book-card:hover{
@@ -443,9 +458,10 @@ nav a:hover{
 
 .book-card img{
     width:100%;
-    height:260px;
+    height:250px;
     object-fit:cover;
-    display:block;
+    
+
 }
 
 .book-card h3{
@@ -1475,15 +1491,13 @@ transform:translateY(-12px) scale(1.03);
 
 }
 .book-title{
-    color:#222;
-    font-size:18px;
-    font-weight:700;
-    line-height:1.35;
-    display:-webkit-box;
-    -webkit-line-clamp:2;
-    -webkit-box-orient:vertical;
-    overflow:hidden;
-    min-height:48px;
+
+text-decoration:none;
+
+color:#222;
+
+transition:.3s;
+
 }
 
 .book-title:hover{
