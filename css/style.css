@@ -437,21 +437,13 @@ row-gap:35px;
 }
 
 .book-card{
-
-    width:100%;
-
+    width:150%;
+    max-width:none;
+    height:450px;
     background:#fff;
-
-    border-radius:18px;
-
+    border-radius:20px;
     overflow:hidden;
-
-    display:flex;
-
-    flex-direction:column;
-
-    transition:.3s;
-
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
 }
 
 .book-card:hover{
