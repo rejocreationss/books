@@ -34,7 +34,7 @@
 
 .book-card{
 
-    width:100%;
+    width:1500%;
 
     max-width:250px;
 
@@ -42,7 +42,7 @@
 
 .book-card img{
 
-    height:235px;
+    height:535px;
 
 }
 
@@ -51,7 +51,6 @@
     max-width:900px;
 
 }
-
 
 .hero-left h1{
 
@@ -445,7 +444,13 @@ nav ul{
 
 }
 
+.benefits{
 
+    margin-top:25px;
+
+    max-width:450px;
+
+}
 
 .books-grid{
 
@@ -459,7 +464,7 @@ nav ul{
 
 .book-card{
 
-    width:100%;
+    width:140%;
 
     max-width:none;
 
@@ -467,7 +472,7 @@ nav ul{
 
 .book-card img{
 
-    height:220px;
+    height:420px;
 
 }
 
@@ -661,7 +666,7 @@ nav ul li a{
 
 .book-card{
 
-    width:140%;
+    width:100%;
 
     max-width:260px;
 
@@ -992,7 +997,7 @@ nav a{
 
     width:100%;
 
-    max-width:170px;
+    max-width:100px;
 
     border-radius:15px;
 
@@ -1009,9 +1014,13 @@ nav a{
 }
 
 .book-card h3{
-    font-size:13px;
-    line-height:1.25;
-    min-height:34px;
+
+    font-size:14px;
+
+    line-height:1.3;
+
+    min-height:38px;
+
 }
 
 .rating{
@@ -1244,6 +1253,66 @@ nav a{
     right:12px;
 
     bottom:12px;
+
+}
+
+}
+
+/* ==========================
+   MOBILE BOOK FIX ONLY
+========================== */
+
+@media screen and (max-width:768px){
+
+.books-grid{
+
+    grid-template-columns:repeat(2,1fr);
+    gap:14px;
+    padding:0 12px;
+
+}
+
+.book-card{
+
+    width:100%;
+    height:280px !important;
+    max-width:none;
+
+}
+
+.book-card img{
+
+    height:125px !important;
+    object-fit:cover;
+
+}
+
+.book-content{
+
+    padding:8px !important;
+
+}
+
+.book-card h3{
+
+    font-size:13px;
+    line-height:1.2;
+    min-height:32px;
+    margin-bottom:6px;
+
+}
+
+.rating{
+
+    font-size:12px;
+    margin-bottom:6px;
+
+}
+
+.price{
+
+    font-size:14px;
+    padding:5px 12px;
 
 }
 
