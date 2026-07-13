@@ -465,7 +465,7 @@ row-gap:35px;
 
 .book-card h3{
     font-size:14px;
-    line-height:1.4;
+    line-height:1.5;
     min-height:62px;
     margin-bottom:10px;
 }
@@ -475,7 +475,7 @@ row-gap:35px;
     background:#ff2d86;
     color:#fff;
     padding:8px 16px;
-    border-radius:6px;
+    border-radius:20px;
     font-weight:bold;
     font-size:24px;
 

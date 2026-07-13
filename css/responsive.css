@@ -1261,44 +1261,44 @@ nav a{
 .book-card{
 
     width:100%;
-    height:250px !important;
+    height:300px !important;
     max-width:none;
 
 }
 
 .book-card img{
 
-    height:125px !important;
+    height:130px !important;
     object-fit:cover;
 
 }
 
 .book-content{
-
-    padding:8px !important;
-
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    height:calc(100% - 250px); /* 250px is your image height */
 }
 
 .book-card h3{
 
-    font-size:10px;
+    font-size:11px;
     line-height:1.2;
-    min-height:32px;
-    margin-bottom:6px;
+    min-height:34px;
+    margin-bottom:35px;
 
 }
 
-.rating{
-
-    font-size:12px;
-    margin-bottom:6px;
-
-}
 
 .price{
-
-    font-size:14px;
-    padding:5px 12px;
+    display:inline-block;
+    background:#ff2d86;
+    color:#fff;
+    padding:8px 16px;
+    border-radius:20px;
+    font-weight:bold;
+    font-size:12px;
+    margin-top:bottom;
 
 }
 
