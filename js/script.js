@@ -1,7 +1,7 @@
 const products = [
 
 {
-title:"Ruby's Fractured Love Story",
+title:"Ruby's Fractured Love Story | When Desire Turned into Doubt",
 price:"₹99",
 image:"images/books/Ruby.jpg",
 link:"https://rejocreationss.gumroad.com/l/RubysFracturedLoveStory",
@@ -13,7 +13,7 @@ reviews:"245"
 {
 title:"Zentangle Fun Time Learn, Draw, Relax",
 price:"₹99",
-image:"images/books/Cover.jpg",
+image:"images/books/Zentangle.png",
 link:"https://rejocreationss.gumroad.com/l/Zentanglecoloringbook",
 
 badge:"⭐ POPULAR",
@@ -30,7 +30,7 @@ download:"Instant Download"
 },
 
 {
-title:"Ultimate 1000+ Cut & Glue Activity Book Bundle",
+title:"Ultimate 1000+ Cut & Glue Activity Book Bundle | Homeschool Printables",
 price:"₹199",
 image:"images/books/Cut.jpg",
 link:"https://rejocreationss.gumroad.com/l/CutandGlueActivityBookBundle",
@@ -49,9 +49,9 @@ download:"Instant Download"
 },
 
 {
-title:"Ultimate 300+ Number Counting Worksheets",
+title:"Ultimate 300+ Number & Counting Worksheets Bundle | Trace, Count, Write & Learn",
 price:"₹199",
-image:"images/books/numbers.png",
+image:"images/books/numbers.jpg",
 link:"https://rejocreationss.gumroad.com/l/NumberCountingWorksheets",
 
 badge:"🆕 NEW",
@@ -68,13 +68,17 @@ download:"Instant Download"
 },
 
 {
-title:"Alphabet Tracing Book",
+title:"300 Cute Coloring Pages for Kids | Animals, Nature & Kids Fun Activities",
 
-price:"₹149",
+price:"₹199",
 
-image:"images/books/alphabet.jpg",
+image:"images/books/coloring.png",
+badge:"🆕 NEW",
 
-link:"https://rejocreationsss.gumroad.com/l/alphabet",
+rating:"★★★★★",
+
+
+link:"https://rejocreationss.gumroad.com/l/300CuteColoringPagesforKids",
 
 badge:"⭐ NEW"
 

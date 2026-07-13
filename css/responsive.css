@@ -689,12 +689,7 @@ nav ul li a{
     min-height:38px;
 }
 
-.rating{
 
-    font-size:15px;
-
-    margin:8px 0;
-}
 
 .price{
 
@@ -1022,15 +1017,6 @@ nav a{
     min-height:38px;
 
 }
-
-.rating{
-
-    font-size:13px;
-
-    margin:6px 0;
-
-}
-
 .rating span{
 
     font-size:11px;
@@ -1295,7 +1281,7 @@ nav a{
 
 .book-card h3{
 
-    font-size:13px;
+    font-size:10px;
     line-height:1.2;
     min-height:32px;
     margin-bottom:6px;
