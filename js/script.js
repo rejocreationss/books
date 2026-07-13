@@ -47,7 +47,7 @@ download:"Instant Download"
 },
 
 {
-title:"Ultimate 300+ Number & Counting Worksheets Bundle | Trace, Count, Write & Learn",
+title:"300+ Number & Counting Worksheets Bundle | Trace, Count & Write",
 price:"₹199",
 image:"images/books/numbers.jpg",
 link:"https://rejocreationss.gumroad.com/l/NumberCountingWorksheets",
