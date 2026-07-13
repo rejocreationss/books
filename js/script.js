@@ -104,10 +104,6 @@ ${product.badge}
     </a>
 </h3>
 
-<div class="rating">
-${product.rating}
-<span>(${product.reviews})</span>
-</div>
 
 <div class="price">
 ${product.price}
