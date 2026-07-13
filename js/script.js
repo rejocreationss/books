@@ -6,7 +6,7 @@ price:"₹99",
 image:"images/books/Ruby.jpg",
 link:"https://rejocreationss.gumroad.com/l/RubysFracturedLoveStory",
 badge:"🔥 BEST SELLER",
-rating:"★★★★★",
+
 reviews:"245"
 },
 
@@ -18,7 +18,6 @@ link:"https://rejocreationss.gumroad.com/l/Zentanglecoloringbook",
 
 badge:"⭐ POPULAR",
 
-rating:"★★★★★",
 
 reviews:"182",
 
@@ -37,7 +36,6 @@ link:"https://rejocreationss.gumroad.com/l/CutandGlueActivityBookBundle",
 
 badge:"🏆 TOP SELLER",
 
-rating:"★★★★★",
 
 reviews:"321",
 
@@ -56,7 +54,6 @@ link:"https://rejocreationss.gumroad.com/l/NumberCountingWorksheets",
 
 badge:"🆕 NEW",
 
-rating:"★★★★★",
 
 reviews:"108",
 
@@ -74,9 +71,6 @@ price:"₹199",
 
 image:"images/books/coloring.png",
 badge:"🆕 NEW",
-
-rating:"★★★★★",
-
 
 link:"https://rejocreationss.gumroad.com/l/300CuteColoringPagesforKids",
 
