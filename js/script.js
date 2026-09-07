@@ -74,9 +74,23 @@ badge:"🆕 NEW",
 
 link:"https://rejocreationss.gumroad.com/l/300CuteColoringPagesforKids",
 
-badge:"⭐ NEW"
+badge:"🆕 NEW"
 
-}
+},
+
+{
+title:"Trace & Color Handwriting Activity Book for Kids Writing Practice",
+
+price:"₹89",
+
+image:"images/books/trace.png",
+badge:"🆕 NEW",
+
+link:"https://rejocreationss.gumroad.com/l/TraceColorHandwriting",
+
+badge:"🆕 NEW"
+
+},
 
 ];
 
